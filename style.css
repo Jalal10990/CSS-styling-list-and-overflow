@@ -1,0 +1,36 @@
+body{
+
+
+    nav ul  li{
+
+/* list-style:armenian; */
+background-color: aqua;
+/* list-style-position: inside; */
+border: 2px solid black;
+/* list-style-image:url(img1.png) */
+/* list-style-type: georgian; */
+list-style:none;
+padding: 23px;
+}
+nav ul{
+        display: flex;
+
+    }
+    .box{
+        width: 20vw;
+        height: 20vh;
+        background-color: aqua;
+        box-sizing: border-box;
+        border: 2px solid black;
+        /* overflow: scroll; */
+        overflow: auto;
+        /* white-space: nowrap; */
+        /* text-overflow: ellipsis; */
+        /* overflow: hidden; */
+        /* overflow-x: scroll;
+        overflow-y: scroll; */
+        /* overflow: scroll hidden; */
+
+         
+    }
+}
